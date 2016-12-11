@@ -1,2 +1,2 @@
 # thecomputingcafe
-Code resources for http://the.computing.cafe/
+This repository stores (mainly) Python code snippets for The Computing Cafe (http://the.computing.cafe).
