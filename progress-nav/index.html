@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="UTF-8">
-  <title>Progress Nav</title>
-  <meta name="description" content="">
-  <meta name="author" content="Hakim El Hattab">
-  <meta name="viewport" content="width=700, user-scalable=no" />
-  <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Roboto" rel="stylesheet">
-  <link href="normalize.css" rel="stylesheet" type="text/css" />
-  <link href="style.css" rel="stylesheet" type="text/css" />
- </head>
- <body>
-  <nav class="toc">
-   <ul>
-    <li><a href="#intro">Intro</a></li>
-    <li>
-     <a href="#dev">Developer Mode</a>
+	<head>
+		<meta charset="UTF-8">
+		<title>Test Navigation</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=700, user-scalable=no" />
+		<link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Roboto" rel="stylesheet">
+		<link href="normalize.css" rel="stylesheet" type="text/css" />
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		
+		<nav class="toc">
+			<ul>
+				<li><a href="#weAreLearning">We are learning ...</a></li>
+				<li><a href="#soThatWeCan">So that we can ...</a></li>
+				<li>
+					<a href="#dev">Developer Mode</a>
 					<ul>
 						<li><a href="#dev-edit-html">Edit HTML</a></li>
 						<li><a href="#dev-element-classes">Element Classes</a></li>
@@ -33,7 +34,13 @@
 				</li>
 			</ul>
 			<svg class="toc-marker" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-				<path stroke="#444" stroke-width="3" fill="transparent" stroke-dasharray="0, 0, 0, 1000" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
+				<path stroke="#444" 
+							stroke-width="3" 
+							fill="transparent" 
+							stroke-dasharray="0, 0, 0, 1000" 
+							stroke-linecap="round" 
+							stroke-linejoin="round" 
+							transform="translate(-0.5, -0.5)" />
 			</svg>
 		</nav>
 
@@ -211,63 +218,6 @@
 
 			</section>
 		</article>
-
-		<script src="script.js"></script>
-
-		<!-- Third party scripts and sharing UI -->
-
-		<div class="credits">
-			<a href="http://twitter.com/hakimel">Follow @hakimel</a>
-			<a href="https://github.com/hakimel/css/tree/master/progress-nav">Source on GitHub</a>
-			<a href="http://hakim.se">More at hakim.se</a>
-		</div>
-
-		<style type="text/css" media="screen">
-			.credits {
-				position: fixed;
-				left: 3em;
-				bottom: 4em;
-				font-size: 1em;
-				z-index: 20;
-				color: #444;
-				vertical-align: middle;
-			}
-
-			.credits * + * {
-				margin-top: 15px;
-			}
-
-			.credits a {
-				display: block;
-				padding: 8px 10px;
-				color: #777;
-				border: 2px solid #bbb;
-				background: #fff;
-				text-decoration: none;
-			}
-
-			.credits a:hover {
-				border-color: #555;
-				color: #222;
-			}
-
-			@media screen and (max-height: 700px) {
-				.credits {
-					display: none;
-				}
-			}
-		</style>
-
-		<script>
-			var _gaq = [['_setAccount', 'UA-15240703-1'], ['_trackPageview']];
-			(function(d, t) {
-			var g = d.createElement(t),
-			    s = d.getElementsByTagName(t)[0];
-			g.async = true;
-			g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			s.parentNode.insertBefore(g, s);
-			})(document, 'script');
-		</script>
 
 	</body>
 
